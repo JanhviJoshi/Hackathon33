@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mStorageReference= FirebaseStorage.getInstance().getReference();
-       videoView= findViewById(R.id.viewVideo);
+       videoView= findViewById(R.id.viewvideo);
        button= findViewById(R.id.button);
        videoUri= Uri.parse("https://firebasestorage.googleapis.com/v0/b/hackathon3-abfe1.appspot.com/o/hackathon1.mp4?alt=media&token=9b025d50-5c9c-4099-97c3-c827265948b0");
 
