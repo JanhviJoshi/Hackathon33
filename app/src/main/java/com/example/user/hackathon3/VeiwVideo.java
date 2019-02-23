@@ -71,7 +71,7 @@ public class VeiwVideo extends AppCompatActivity {
 
                     mainvideoView.pause();
                     isPlaying = false;
-                    playbtn.setImageResource(R.drawable.ic_play_arrow);
+                    playbtn.setImageResource(R.drawable.ic_play);
 
                 }
 
@@ -79,7 +79,7 @@ public class VeiwVideo extends AppCompatActivity {
                 {
                     mainvideoView.start();
                     isPlaying = true;
-                    playbtn.setImageResource(R.mipmap.ic_pause);
+                    playbtn.setImageResource(R.mipmap.ic_pauseee);
                 }
             }
         });
